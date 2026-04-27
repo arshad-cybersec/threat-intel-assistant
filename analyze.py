@@ -111,3 +111,10 @@ async def generate_threat_report(request: ThreatReportRequest):
         raise HTTPException(status_code=502, detail="Failed to parse AI response as JSON")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+
+
+
+
+
